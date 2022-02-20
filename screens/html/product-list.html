@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawsome/all.min.css">
+    <link rel="stylesheet" href="./fontawsome/fontawesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+    crossorigin="anonymous"
+  />
+    <link rel="stylesheet" href="https://dreamy-wright-6bb3af.netlify.app/components/components.css">
+
+    <link rel="stylesheet" href="/style.css">
+    <title>Jedi | Products</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar flex-space-btw wd-100">
+            <div class="nav-logo"><i class="fas fa-jedi nav-logo-icon"></i> <span class="nav-logo-txt">Jedi Store</span>
+            </div>
+            <div class="navbar-search">
+              <button class="search-btn"><i class="fas fa-search"></i></button>
+              <input class="search-input" type="text" name="search" placeholder="Search Here....">
+            </div>
+            <div class="navbar-links flex-center">
+              <a class="nav-login-link" href="./screens/html/login.html">
+                <button class="nav-login-btn">Login</button>
+              </a>
+              <ul class="nav-list">
+                <li class="nav-list-item">
+                  <a class="nav-list-link" href="#"><i class="far fa-heart nav-link-icon"></i></a>
+                </li>
+                <li class="nav-list-item">
+                  <a class="nav-list-link  " href="#"><i class="fas fa-cart-plus nav-link-icon"></i></a>
+                </li>
+             
+              </ul>
+            </div>
+          </nav>
+    </header>
+
+
+    <main class="d-flex">
+        <aside class="flex-col product-sidebar " >
+
+            <div class="flex-space-btw padd-md">
+                <h2>Filters</h2>
+                <p >Clear</p> 
+            </div>
+
+            <div >
+                <p class="filter-head padd-md" >Rating</p>
+                <div class="filter-list" >
+                    <ul>
+                        <li>
+                            <input type="radio" id="four-star" name="Rating" value="4">
+                            <label for="four-star">4 stars & above</label></li>
+                        <li>
+                            <input type="radio" id="three-star" name="Rating" value="3">
+                            <label for="three-star"> 3 stars & above</label></li>
+                        <li>
+                            <input type="radio" id="two-star" name="Rating" value="2">
+                            <label for="two-star">2 stars & above </label>
+                        </li>
+                        <li>
+                            <input type="radio" id="one-star" name="Rating" value="1">
+                            <label for="one-star"> 1 stars & above</label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div >
+                    <p class="filter-head padd-md" >Catagories</p>
+                    <div class="filter-list" >
+                        <ul>
+                            <li>
+                                <input type="checkbox"  name="catagorie" >
+                                <label for="four-star">Clothes</label></li>
+                            <li>
+                                <input type="checkbox" name="catagorie">
+                                <label for="three-star"> Toys</label></li>
+                            <li>
+                                <input type="checkbox" name="catagorie" >
+                                <label for="two-star">Collectables </label>
+                            </li>
+                            <li>
+                                <input type="checkbox"  name="catagorie" >
+                                <label for="one-star"> Merchandise</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="filter-head padd-md" >Price</p>
+                <input class="filter-slider" type="range" min="1" max="100" value="50">
+                <div class="flex-space-btw slider-range" >
+                <p>0</p>
+                <p>5000</p>
+                <p>10000</p>
+                </div>
+            </div>
+        </aside>
+
+
+        <div class="main-content-product" >
+
+            <div>
+                <div class="card card-pos-rel">
+                    <img class="card-img" src="/assets/suit 1.jpg"
+                        alt="Lago di Braies">
+
+                        <button class="dismiss card-icon" ><i class="fas fa-heart"></i></button>
+
+                    <div class="card-details">
+                        <span class="card-tag">Mens</span>
+                        <span class="card-tag">Cloak</span>
+                        <div class="card-header">Padme Amidal Cloak</div>
+                        <p class="card-text">It inspired by the Galaxy most elegant and famous mother.Available for Adult as well for Kids  </p>
+
+
+                        <div class="flex-space-btw">
+
+                        <span class=" card-rating">4.2 <i class="fas fa-star"></i>(224)</span>
+
+                        <span>Price :<h3 class="inline-block">₹ 2,000</h3> </span> 
+
+                        </div>
+                        
+
+
+                        <button class="btn btn-shop card-fix-btn card-btn-sec " > <i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        <button class="btn btn-shop card-fix-btn card-btn-pri ">Buy Now</button>
+                       
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card-pos-rel">
+                    <img class="card-img" src="/assets/suit 1.jpg"
+                        alt="Lago di Braies">
+                        <span class="card-badge">Trending</span>
+                    <div class="card-details">
+                        <span class="card-tag">Mens</span>
+                        <span class="card-tag">Cloak</span>
+                        <div class="card-header">Padme Amidal Cloak</div>
+                        <p class="card-text">It inspired by the Galaxy most elegant and famous mother.Available for Adult as well for Kids  </p>
+
+
+                        <div class="flex-space-btw">
+
+                        <span class=" card-rating">4.2 <i class="fas fa-star"></i>(224)</span>
+
+                        <span>Price :<h3 class="inline-block">₹ 2,000</h3> </span> 
+
+                        </div>
+                        
+
+
+                        <button class="btn btn-shop card-fix-btn card-btn-sec " > <i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        <button class="btn btn-shop card-fix-btn card-btn-pri ">Buy Now</button>
+                       
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card card-pos-rel">
+                    <img class="card-img" src="/assets/suit 1.jpg"
+                        alt="Lago di Braies">
+                        <button class="dismiss card-icon" ><i class="fas fa-heart"></i></button>
+                    <div class="card-details">
+                        <span class="card-tag">Mens</span>
+                        <span class="card-tag">Cloak</span>
+                        <div class="card-header">Padme Amidal Cloak</div>
+                        <p class="card-text">It inspired by the Galaxy most elegant and famous mother.Available for Adult as well for Kids  </p>
+
+
+                        <div class="flex-space-btw">
+
+                        <span class=" card-rating">4.2 <i class="fas fa-star"></i>(224)</span>
+
+                        <span>Price :<h3 class="inline-block">₹ 2,000</h3> </span> 
+
+                        </div>
+                        
+
+
+                        <button class="btn btn-shop card-fix-btn card-btn-sec " > <i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        <button class="btn btn-shop card-fix-btn card-btn-pri ">Buy Now</button>
+                       
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="card-img" src="/assets/suit 1.jpg"
+                        alt="Lago di Braies">
+                    <div class="card-details">
+                        <span class="card-tag">Mens</span>
+                        <span class="card-tag">Cloak</span>
+                        <div class="card-header">Padme Amidal Cloak</div>
+                        <p class="card-text">It inspired by the Galaxy most elegant and famous mother.Available for Adult as well for Kids  </p>
+
+
+                        <div class="flex-space-btw">
+
+                        <span class=" card-rating">4.2 <i class="fas fa-star"></i>(224)</span>
+
+                        <span>Price :<h3 class="inline-block">₹ 2,000</h3> </span> 
+
+                        </div>
+                        
+
+
+                        <button class="btn btn-shop card-fix-btn card-btn-sec " > <i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        <button class="btn btn-shop card-fix-btn card-btn-pri ">Buy Now</button>
+                       
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="card-img" src="/assets/suit 1.jpg"
+                        alt="Lago di Braies">
+                    <div class="card-details">
+                        <span class="card-tag">Mens</span>
+                        <span class="card-tag">Cloak</span>
+                        <div class="card-header">Padme Amidal Cloak</div>
+                        <p class="card-text">It inspired by the Galaxy most elegant and famous mother.Available for Adult as well for Kids  </p>
+
+
+                        <div class="flex-space-btw">
+
+                        <span class=" card-rating">4.2 <i class="fas fa-star"></i>(224)</span>
+
+                        <span>Price :<h3 class="inline-block">₹ 2,000</h3> </span> 
+
+                        </div>
+                        
+
+
+                        <button class="btn btn-shop card-fix-btn card-btn-sec " > <i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        <button class="btn btn-shop card-fix-btn card-btn-pri ">Buy Now</button>
+                       
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img class="card-img" src="/assets/suit 1.jpg"
+                        alt="Lago di Braies">
+                    <div class="card-details">
+                        <span class="card-tag">Mens</span>
+                        <span class="card-tag">Cloak</span>
+                        <div class="card-header">Padme Amidal Cloak</div>
+                        <p class="card-text">It inspired by the Galaxy most elegant and famous mother.Available for Adult as well for Kids  </p>
+
+
+                        <div class="flex-space-btw">
+
+                        <span class=" card-rating">4.2 <i class="fas fa-star"></i>(224)</span>
+
+                        <span>Price :<h3 class="inline-block">₹ 2,000</h3> </span> 
+
+                        </div>
+                        
+
+
+                        <button class="btn btn-shop card-fix-btn card-btn-sec " > <i class="fas fa-shopping-cart"></i> Add to cart</button>
+                        <button class="btn btn-shop card-fix-btn card-btn-pri ">Buy Now</button>
+                       
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer >
+
+        <div class="home-footer flex-center flex-col">
+            <div class="social-link padd-top-sm">
+                <a href="#"><div class="avatar-sm avatar-round flex-center footer-avatar "><i class=" fas fa-jedi " ></i></div>
+                </a>
+                <a href="#"> <div class="avatar-sm avatar-round flex-center footer-avatar" ><i class=" fas fa-jedi " ></i></div></a>
+                <a href="#"> <div class="avatar-sm avatar-round flex-center footer-avatar" ><i class=" fas fa-jedi " ></i></div></a>
+            </div>
+            <ul class="padd-top-sm" >
+                <li class="list-inline"><a href="#">Home</a></li>
+                <li class="list-inline"><a href="#">Services</a></li>
+                <li class="list-inline"><a href="#">About</a></li>
+                <li class="list-inline"><a href="#">Terms</a></li>
+                <li class="list-inline"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="padd-top-sm">Jedi Store © 2022</p>
+        </div>
+        
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

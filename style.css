@@ -1,5 +1,6 @@
 @import url(./utility.css);
 @import url(./screens/css/login.css);
+@import url(./screens/css/product-list.css);
 
 .shop-btn{
     background-color: transparent;
