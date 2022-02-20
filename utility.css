@@ -1,0 +1,24 @@
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.padd-top-md{
+    padding-top: 1rem ;
+}
+.padd-left-sm{
+    padding-left: 0.5rem;
+}
+.padd-md{
+padding: 1rem;
+}
+.padd-sm{
+    padding: 0.5rem;
+}
+.wd-100{
+    width: 100%;
+}
+.height-vh-100{
+    height: 100vh;
+}

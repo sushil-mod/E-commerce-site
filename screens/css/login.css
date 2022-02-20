@@ -1,0 +1,38 @@
+
+
+
+
+.form-auth{
+
+    height: auto;
+    border: 2px solid var(--text-color);
+
+
+    color: var(--text-color);
+    width: 30rem;
+}
+
+.form-logo{
+
+    border-bottom: 2px solid var(--text-color);
+    
+}
+
+.form-logo i{
+    margin: 0;
+}
+
+.form-btn{
+width: 20rem;
+text-align: center;
+}
+
+.login{
+width: 80%;
+cursor: pointer;
+background-color: var(--text-color);
+color: var(--bg-color);
+}
+.form-next{
+    font-size: 1.2rem;
+}
