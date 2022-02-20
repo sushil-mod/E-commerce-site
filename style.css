@@ -1,2 +1,138 @@
 @import url(./utility.css);
 @import url(./screens/css/login.css);
+
+.shop-btn{
+    background-color: transparent;
+    border: 2px solid var(--bg-color);
+    color: var(--white);
+  }
+  .home-content-title{
+    text-align: center;
+    padding: 2rem;
+  }
+  .home-img-div{
+      text-align: center;
+      margin: 1rem 10rem 0 10rem;
+      height:25rem;
+    }
+   
+    .home-img-txt{
+      color: var(--white); 
+      top: 10rem;
+      left: 5rem;
+    }
+  
+  
+    .home-product{
+     
+  
+      gap: 10rem;
+  
+  
+      height: 10rem;
+     
+      
+    }
+  
+  .product-link a{
+    color: var(--text-color);
+  
+      font-size: 1.5rem;
+      display: flex;
+   
+      text-align: center;
+   
+      flex-direction: column; 
+    }
+  
+  .fontsize-lg{
+    font-size: 2rem ;
+  }
+  
+
+  
+  
+  .home-ad{
+  
+    height: 30rem;
+  
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  
+ 
+    gap: 20rem;
+  }
+  
+  
+  
+  .home-ad-img{
+  
+  width: 80%;
+  height: 80%;
+  
+  
+  }
+  
+  
+  
+  .home-new-arrival{
+  
+  
+  
+    display: grid;
+    grid-template-columns: 20rem 20rem;
+    grid-template-rows: 25rem 25rem;
+    text-align: center;
+    justify-content: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+  
+    
+  }
+  
+  .home-new-arrival  div{
+   
+    border-radius: 4px;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    background-color: var(--bg-color);
+  
+  }
+  
+  .arrival-head{
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-color);
+  }
+  
+ 
+  .arrival-link , .arrival-link a{
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    font-weight: 900;
+    color: var(--text-color);
+  
+  }
+  
+
+
+  
+  .home-footer{
+    margin-top: 2rem;
+    padding-top: 4rem;
+    background-color: var(--bg-color);
+  }
+  
+  .footer-avatar{
+    border: 2px solid var(--text-color);
+    color: var(--text-color);
+  }
+  
+  .social-link a{
+    display: inline-block;
+    text-align: center;
+  }
+  .list-inline , .list-inline a{
+    display: inline-block;
+    padding-inline: 0.5rem ;
+    color: var(--text-color);
+  }
