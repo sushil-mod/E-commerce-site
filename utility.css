@@ -48,4 +48,7 @@ padding: 1rem;
   .inline-block{
     display: inline-block;
 }
-
+.card-icon{
+    color: var(--red-solid);
+    cursor: pointer;
+}
