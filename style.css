@@ -2,11 +2,13 @@
 @import url(./screens/css/login.css);
 @import url(./screens/css/product-list.css);
 @import url(./screens/css/wishlist.css);
+@import url(./screens/css/cart.css);
 
 .shop-btn{
     background-color: transparent;
     border: 2px solid var(--bg-color);
     color: var(--white);
+    cursor: pointer;
   }
   .home-content-title{
     text-align: center;

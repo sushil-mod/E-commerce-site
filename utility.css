@@ -1,3 +1,8 @@
+
+:root{
+  --box-shadow : rgba(0, 0, 0, 0.2)
+}
+
 .d-flex{
     display: flex;
 } 
@@ -12,9 +17,7 @@
 .padd-left-sm{
     padding-left: 0.5rem;
 }
-.padd-md{
-padding: 1rem;
-}
+
 .padd-sm{
     padding: 0.5rem;
 }
@@ -35,6 +38,9 @@ padding: 1rem;
   .padd-btm-lg{
     padding-bottom: 1.5rem;
   }
+  .padd-btm-sm{
+      padding-bottom: 0.5rem;
+  }
   .padd-top-sm{
     padding-top: 0.5rem;
   }
@@ -51,4 +57,18 @@ padding: 1rem;
 .card-icon{
     color: var(--red-solid);
     cursor: pointer;
+}
+
+.bodr-btm{
+    border-bottom: 4px solid var(--text-color);
+}
+
+.header-badge-color{
+background-color: var(--text-color);
+}
+
+
+
+.card:hover , .bx-shadow{
+    box-shadow:  0 4px 8px 0 var(--box-shadow);
 }
