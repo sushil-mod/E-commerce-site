@@ -28,34 +28,36 @@
 <body>
 
 
-    <header>
-        <nav class="navbar flex-space-btw wd-100">
+  <header>
+    <nav class="navbar flex-space-btw wd-100">
+        <a href="/index.html">
             <div class="nav-logo"><i class="fas fa-jedi nav-logo-icon"></i> <span class="nav-logo-txt">Jedi Store</span>
             </div>
-            <div class="navbar-search">
-              <button class="search-btn"><i class="fas fa-search"></i></button>
-              <input class="search-input" type="text" name="search" placeholder="Search Here....">
-            </div>
-            <div class="navbar-links flex-center">
-              <a class="nav-login-link" href="./screens/html/login.html">
-                <button class="nav-login-btn">Login</button>
-              </a>
-              <ul class="nav-list">
-                <li class="nav-list-item">
-                  <a class="nav-list-link" href="#"><i class="far fa-heart nav-link-icon"></i></a>
-                </li>
-                <li class="nav-list-item">
-                  <a class="nav-list-link icon-badge pos-rel " href="#"><i class="fas fa-cart-plus nav-link-icon"></i><div class="badge-number flex-center badge-on-icon pos-abt">4</div></a>
-                </li>
-             
-              </ul>
-            </div>
-          </nav>
-    </header>
+        </a>
+        
+
+        <div class="navbar-search">
+          <button class="search-btn"><i class="fas fa-search"></i></button>
+          <input class="search-input" type="text" name="search" placeholder="Search Here....">
+        </div>
+        <div class="navbar-links flex-center">
+         
+          <ul class="nav-list">
+            <li class="nav-list-item">
+              <a class="nav-list-link icon-badge pos-rel" href="./wishlist.html"><i class="far fa-heart nav-link-icon"></i><div  class="badge-number flex-center header-badge-color badge-on-icon pos-abt">3</div></a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link icon-badge pos-rel" href="./cart.html"><i class="fas fa-cart-plus nav-link-icon"></i><div class="badge-number flex-center header-badge-color badge-on-icon pos-abt">3</div></a>
+            </li>
+         
+          </ul>
+        </div>
+      </nav>
+</header>
 
     <div class="flex-center height-vh-100">
 
-<form class="form-auth flex-center flex-col" >
+<form class="form-auth flex-center flex-col bx-shadow" >
 
         <div class="form-logo wd-100">
             <div class="nav-logo flex-center flex-col">
@@ -96,7 +98,26 @@
     </div>
       
 
+    <footer >
 
+      <div class="home-footer flex-center flex-col">
+          <div class="social-link padd-top-sm">
+              <a href="#"><div class="avatar-sm avatar-round flex-center footer-avatar "><i class="fab fa-twitter"></i></i></div>
+              </a>
+              <a href="#"> <div class="avatar-sm avatar-round flex-center footer-avatar" ><i class="fab fa-github"></i></div></a>
+              <a href="#"> <div class="avatar-sm avatar-round flex-center footer-avatar" ><i class="fab fa-instagram"></i></div></a>
+          </div>
+          <ul class="padd-top-sm" >
+              <li class="list-inline"><a href="#">Home</a></li>
+              <li class="list-inline"><a href="#">Services</a></li>
+              <li class="list-inline"><a href="#">About</a></li>
+              <li class="list-inline"><a href="#">Terms</a></li>
+              <li class="list-inline"><a href="#">Privacy Policy</a></li>
+          </ul>
+          <p class="padd-top-sm">Jedi Store © 2022</p>
+      </div>
+      
+  </footer>
 
 </body>
 

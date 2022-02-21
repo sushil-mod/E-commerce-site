@@ -1,0 +1,41 @@
+.bill-item{
+    padding: 1rem 0 ;
+    font-size: 1.3rem;
+}
+
+.cart-container{
+    margin-top: 5rem;
+    gap: 2rem;
+}
+
+.cart-listbox{
+    align-items: center;
+    gap: 2rem; 
+    width: 40rem ; height: 40rem; overflow-y: auto;
+}
+
+.cart-qty{
+    display: flex; 
+    gap: 0.5rem; 
+    padding-top: 0.5rem ;
+    padding-bottom: 0.5rem;
+}
+
+.cart-qty-btn{
+    border-radius: 50% ; 
+}
+.cart-qty-input{
+    width: 2rem; text-align: center;
+}
+
+.cart-bill{
+    width:20rem;
+    height: 25rem;
+}
+
+.cart-btn{
+     font-size: 1.5rem; 
+     margin: 1rem 0 ; 
+     color: var(--bg-color);
+    background-color: var(--text-color);
+}
