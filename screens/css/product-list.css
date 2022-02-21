@@ -64,7 +64,3 @@ color: var(--text-color);
     margin-right: 5rem;
 }
 
-.card-icon{
-    color: var(--red-solid);
-    cursor: pointer;
-}
